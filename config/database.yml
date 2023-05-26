@@ -79,8 +79,8 @@ test:
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
-production:
-  <<: *default
-  database: hosting_image_upload_production
-  username: hosting_image_upload
-  password: <%= ENV["HOSTING_IMAGE_UPLOAD_DATABASE_PASSWORD"] %>
+# production:
+#   <<: *default
+#   database: hosting_image_upload_production
+#   username: hosting_image_upload
+#   password: <%= ENV["HOSTING_IMAGE_UPLOAD_DATABASE_PASSWORD"] %>
